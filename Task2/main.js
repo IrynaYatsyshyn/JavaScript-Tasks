@@ -73,7 +73,16 @@
 // console.log(p);
 // let area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
 // console.log(area.toFixed(3));//‘. Результат обчислення площі трикутника виводити в консоль з точністю 3 знаки після коми
-
+// let firstAngle = prompt("Enter first acute angle...");
+// let secondAngle = prompt("Enter second acute angle...")
+// console.log(firstAngle, secondAngle);
+// let result = Number(firstAngle) + Number(secondAngle);
+// console.log(result);
+// if (result == 90) {
+//     console.log("The triangle is rectangular!");
+// } else {
+//     console.log("The triangle is not rectangular!");
+// }
 
 // В діапазоні годин 23-5 – має виводитися привітання “Доброї ночі”
 // В діапазоні годин 5-11 – має виводитися привітання “Доброго ранку”
