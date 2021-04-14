@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db159403-2c0a-4218-ade4-e86b0b27c17b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Task6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task6/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task6" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,7 +56,8 @@
       <workItem from="1618055602922" duration="15264000" />
       <workItem from="1618212501862" duration="14733000" />
       <workItem from="1618239202645" duration="10958000" />
-      <workItem from="1618310369152" duration="11032000" />
+      <workItem from="1618310369152" duration="12747000" />
+      <workItem from="1618389663940" duration="4716000" />
     </task>
     <servers />
   </component>

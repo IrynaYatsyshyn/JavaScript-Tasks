@@ -139,65 +139,54 @@
 // worker1.sortSalary(workersArr);
 
 //TASK5
-class GeometricFigure {
-    getArea() {
-        return 0;
-    }
-
-    toString() {
-        return Object.getPrototypeOf(this).constructor.name;
-    }
-}
-
-class Triangle extends GeometricFigure {
-    getArea() {
-        let a = 4;
-        let b = 5;
-        let c = 6;
-        let p = (Number(a) + Number(b) + Number(c)) / 2;
-        let area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-        console.log("Triangle area: ", Math.round(area));
-    }
-}
-
-class Square extends GeometricFigure {
-    getArea() {
-        let a = 7;
-        let area = a ** 2;
-        console.log("Square area:", area);
-    }
-}
-
-class Circle extends GeometricFigure {
-    getArea() {
-        let r = 5;
-        let area = Math.PI * r ** 2;
-        console.log("Circle area: ", area);
-    }
-}
-
-let resultTriangle = new Triangle();
-resultTriangle.getArea();
-
-let resultSquare = new Square();
-resultSquare.getArea();
-
-let resultCircle = new Circle();
-resultCircle.getArea();
-console.log("-----------------------");
-
-function handleFigures(figures) {
-    return figures.reduce(function (sum, figure) {
-        if (figure instanceof GeometricFigure) {
-            console.log(`Geometric Figure: ${figure.toString()} + ${figure.getArea()}`);
-            return sum + figure.getArea();
-        }
-        throw new Error('Not a good one!');
-    }, 0);
-}
-
-let figures = [new Triangle(),new Square(), new Circle()];
-console.log(handleFigures(figures));
-
-
-
+// class GeometricFigure {
+//     getArea() {
+//         return 0;
+//     }
+//     toString() {
+//         return Object.getPrototypeOf(this).constructor.name;
+//     }
+// }
+//
+// class Triangle extends GeometricFigure {
+//     constructor(s, h) {
+//         super();
+//         this.side = s;
+//         this.height = h;
+//     }
+//     getArea() {
+//         return this.side * this.height / 2;
+//     }
+// }
+//
+// class Square extends GeometricFigure {
+//     constructor(a) {
+//         super();
+//         this.sides = a;
+//     }
+//     getArea() {
+//         return this.sides ** 2;
+//     }
+// }
+//
+// class Circle extends GeometricFigure {
+//     constructor(r) {
+//         super();
+//         this.radius = r;
+//     }
+//     getArea() {
+//         return Math.PI * this.radius ** 2;
+//     }
+// }
+//
+// function handleFigures(figures) {
+//     return figures.reduce(function (sum, figure) {
+//         if (figure instanceof GeometricFigure) {
+//             console.log(`Geometric Figure: ${figure.toString()} - area: ${figure.getArea()}`);
+//             return sum + figure.getArea()
+//         }
+//         throw new Error('Not a good one!');
+//     }, 0);
+// }
+// const figures = [new Triangle(4, 5), new Square(7), new Circle(5)];
+// console.log(handleFigures(figures));
