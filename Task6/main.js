@@ -8,8 +8,12 @@
 // document.getElementById("image").src = "cat.jpg";
 //
 //TASK3 -------------------------------------- change
-// let getElem = document.createElement("Selector text 0:");
-// console.log(getElem);
+// let element = document.querySelectorAll("#text p");
+// for (let i = 0; i < element.length; i++) {
+//     alert("Selectors text : " + i + " " + element[i].innerHTML);
+// }
+
+
 //TASK4 --------------------------------------- change
 //
 //TASK5
