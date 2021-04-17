@@ -7,15 +7,35 @@
 //TASK2
 // document.getElementById("image").src = "cat.jpg";
 //
-//TASK3 -------------------------------------- change
+//TASK3
 // let element = document.querySelectorAll("#text p");
 // for (let i = 0; i < element.length; i++) {
 //     alert("Selectors text : " + i + " " + element[i].innerHTML);
 // }
 
+//TASK4
+//VERSION1
+// let Elem = document.getElementById("list");
+// alert(Elem.children[0].innerHTML);
+// alert(Elem.children[4].innerHTML);
+// alert(Elem.children[1].innerHTML);
+// alert(Elem.children[3].innerHTML);
+// alert(Elem.children[2].innerHTML);
 
-//TASK4 --------------------------------------- change
-//
+//VERSION2
+// const parentEl = document.getElementById("list");
+// const first = parentEl.children[0].innerHTML;
+// const lastEl = parentEl.children[4].innerHTML;
+// const secondEl = parentEl.children[1].innerHTML;
+// const fourthEl = parentEl.children[3].innerHTML;
+// const thirdEl = parentEl.children[2].innerHTML;
+
+// alert(first);
+// alert(lastEl);
+// alert(secondEl);
+// alert(fourthEl);
+// alert(thirdEl);
+
 //TASK5
 // let elem = document.querySelector("h1");
 // elem.style.background = "green";
@@ -39,10 +59,22 @@
 // span1.style.wordSpacing = "-0.2em";
 
 //TASK6
-let message1 = prompt("Your message1 ...");
-let message2 = prompt("Your message2 ...");
-message1 = document.getElementById("input1").value = message1;
-message2 = document.getElementById("input2").value = message2;
-document.getElementById("input2").value = document.getElementById("input1").value;
+// let message1 = prompt("Your message1 ...");
+// let message2 = prompt("Your message2 ...");
+// let input1 = document.getElementById("input1");
+// input1.value = message1;
+// let input2 = document.getElementById("input2");
+// input2.value = message2;
+//
+// let message1Value = input1.value;
+// let message2Value = input2.value;
+// input1.value = message2Value;
+// input2.value = message1Value;
 
 //TASK7
+// document.body.innerHTML =
+//     `<main class = "mainClass check item">
+//         <div id = "myDiv">
+//          <p>First paragraph</p>
+//         </div>
+//     </main>`;
