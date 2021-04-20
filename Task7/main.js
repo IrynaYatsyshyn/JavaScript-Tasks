@@ -78,18 +78,43 @@
 
 
 //TASK6
-// document.body.innerHTML = ('Width: '+window.innerWidth + ',' +' Height: '+window.innerHeight);
+// function size() {
+//     let width = window.innerWidth;
+//     let height = window.innerHeight;
+//     let windowSize = ('Width: ' + width + ',' + ' Height: ' + height);
+//     document.getElementById("size").innerHTML = windowSize;
+// }
+//
+// window.addEventListener("resize", size);
 
+//TASK7
+const citiesMas = {
+    'ukr': ["Lviv", "Kyiv", "Ternopil"],
+    'usa': ["New-York", "Chicago", "Boston"],
+    'ger': ["Hamburg", "Berlin", "Munich"],
+}
 
+function new_option() {
+    city.innerHTML = "";
+    let country = countries.value;
+    for (let i = 0; i < citiesMas[country].length; i++) {
+        let opt = document.createElement("option");
+        opt.innerHTML = citiesMas[country][i];
+        city.appendChild(opt);
+    }
+}
 
+let name = document.querySelector("p");
+function selectText() {
+    name.innerHTML = "";
+    name.innerHTML = countries.options[countries.selectedIndex].text + "," + "\n" + city.options[city.selectedIndex].text;
+}
 
+let countries = document.getElementById("country");
+countries.addEventListener("change", new_option);
+countries.addEventListener("change", selectText);
 
-
-
-
-
-
-
-
+let city = document.getElementById("cities");
+city.addEventListener("change", selectText);
 
 
