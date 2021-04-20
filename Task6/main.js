@@ -23,18 +23,18 @@
 // alert(Elem.children[2].innerHTML);
 
 //VERSION2
-// const parentEl = document.getElementById("list");
-// const first = parentEl.children[0].innerHTML;
-// const lastEl = parentEl.children[4].innerHTML;
-// const secondEl = parentEl.children[1].innerHTML;
-// const fourthEl = parentEl.children[3].innerHTML;
-// const thirdEl = parentEl.children[2].innerHTML;
-
+// const parent = document.getElementById("list");
+// const first = document.getElementsByTagName("li")[0].innerHTML;
+// const second = document.getElementsByTagName("li")[4].innerHTML;
+// const third = document.getElementsByTagName("li")[1].innerHTML;
+// const fourth = document.getElementsByTagName("li")[3].innerHTML;
+// const fifth = document.getElementsByTagName("li")[2].innerHTML;
+//
 // alert(first);
-// alert(lastEl);
-// alert(secondEl);
-// alert(fourthEl);
-// alert(thirdEl);
+// alert(second);
+// alert(third);
+// alert(fourth);
+// alert(fifth);
 
 //TASK5
 // let elem = document.querySelector("h1");
