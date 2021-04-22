@@ -28,11 +28,13 @@
 
 /////////////////////////////////////////////////////////////not done yet
 //TASK3
-// let str = "cdbBdbsbz";
+let reg = /i(b+)(d)/i;
+let result = reg.exec("cdbBdbsbz");
+console.log(result);
 
 //TASK2
 // function checkEmail(email) {
-//     let regExp = /(A-Z)([a-z0-9])(gmail.com)/;
+//     let regExp = /\S+@\S+.\S+/;
 //     if (regExp.test(email) == true) {
 //         alert("TRUE");
 //     } else {
@@ -40,4 +42,4 @@
 //     }
 // }
 //
-// checkEmail("yatsyshyn05@gmail.com");
+// checkEmail("#yatsyshyn05@gmail.com");
