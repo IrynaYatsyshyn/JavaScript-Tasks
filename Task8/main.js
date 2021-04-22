@@ -24,22 +24,19 @@
 // const str = 'Java Script';
 // alert(str.replace(/(\w+) (\w+)/i, '$2, $1'));
 
-
-
-/////////////////////////////////////////////////////////////not done yet
 //TASK3
-let reg = /i(b+)(d)/i;
-let result = reg.exec("cdbBdbsbz");
-console.log(result);
+// let reg = /i(b+)(d)/i;
+// let result = reg.exec("cdbBdbsbz");
+// console.log(result);
 
 //TASK2
-// function checkEmail(email) {
-//     let regExp = /\S+@\S+.\S+/;
-//     if (regExp.test(email) == true) {
-//         alert("TRUE");
-//     } else {
-//         alert("FALSE");
-//     }
-// }
-//
-// checkEmail("#yatsyshyn05@gmail.com");
+function checkEmail(email) {
+    let regExp = /\S+@\S+.\S+/;
+    if (regExp.test(email) == true) {
+        alert("TRUE");
+    } else {
+        alert("FALSE");
+    }
+}
+
+checkEmail("Qmail2@gmail.com");
